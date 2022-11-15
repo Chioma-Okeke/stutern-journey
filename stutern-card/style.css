@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-color: rgb(190, 216, 216);
+}
+
+.main{
+    margin: 20px auto;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 20px gray;
+}
+
+.top-section{
+    background-color: white;
+    padding: 30px 0px 35px 30px;
+}
+
+.top-section h1{
+    font-size: 22px;
+    color: rgb(13, 161, 167);
+}
+
+.top-section h4{
+    margin: 17px 0px 10px 0px;
+    color: rgb(179, 211, 64);
+    opacity: 0.8;
+}
+
+.top-section p{
+    line-height: 22px;
+    color: gray;
+    opacity: 0.7;
+}
+
+.bottom-section{
+    display: flex;
+    color: white;
+    padding: 0px;
+}
+
+.subscription{
+    background-color: rgb(13, 161, 167);
+    padding: 40px 0px 35px 35px;
+}
+
+.why-us{
+    padding: 40px 0px 35px 35px;
+    background-color: rgb(16, 199, 206);
+}
+
+.why-us h2{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.why-us ul{
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.subscription, .why-us{
+    flex-basis: 100%;
+}
+
+button{
+    border: none;
+    border-radius: 6px;
+    padding: 15px 10px;
+    width: 77%;
+    color: white;
+    background-color: rgb(147, 236, 13);
+    margin-top: 30px;
+    box-shadow: 0 0 7px gray;
+}
+
+ul{
+    list-style: none;
+}
+
+.price p{
+    margin-left: 10px;
+    margin-top: 7px;
+    opacity: 0.7;
+}
+
+.price{
+    display: flex;
+    margin: 15px 0px 5px 0px;
+}
